@@ -1,6 +1,7 @@
 # StatusIndicator
 NodeJs implementation for a Teams status indidicator for webhooks
 
+Install and build:
 ```
 npm install
 npm run build
@@ -25,4 +26,9 @@ END_TIME="23:00"
 DEBUG=false
 BRIGHTNESS=0.05
 DEVICE_CODE_REQUEST_TIMEOUT=5
+```
+
+Run:
+```
+npm run start
 ```
