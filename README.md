@@ -1,5 +1,10 @@
 # StatusIndicator
-NodeJs implementation for a Teams status indicator on a RapsberryPi
+NodeJs implementation for a Teams status indidicator for webhooks
+
+```
+npm install
+npm run build
+```
 
 example of .env:
 ```
@@ -21,5 +26,3 @@ DEBUG=false
 BRIGHTNESS=0.05
 DEVICE_CODE_REQUEST_TIMEOUT=5
 ```
-
-`npm run build`
